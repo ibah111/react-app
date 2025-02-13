@@ -4,7 +4,7 @@ import './styles.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>Сделано с любовью 💖</p>
+      <p>Сделано с любовью 💖 @Nbahvc</p>
     </footer>
   );
 };
