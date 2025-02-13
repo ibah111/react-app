@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './styles.css';
 import { motion } from 'framer-motion';
+import BitrixOauth from '../../api/REST/auth';
 
 const MainContent = () => {
   const imageUrl =
@@ -11,6 +12,11 @@ const MainContent = () => {
     setMessage('Ты самая лучшая! 💖');
     setOpen(open === false ? true : false);
   };
+
+  React.useEffect(() => {
+    BitrixOauth().then(res => console.log(res));
+  });
+
   return (
     <div className="main-content">
       <h2>С Днём Святого Валентина!</h2>
