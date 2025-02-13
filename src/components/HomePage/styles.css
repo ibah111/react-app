@@ -1,0 +1,46 @@
+.header {
+    background-color: #ff4d6d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.footer {
+    background-color: #ff4d6d;
+    color: white;
+    /*
+    */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Pacifico', cursive;
+}
+.main-content {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff1a40;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #ff4d6d;
+}

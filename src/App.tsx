@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import { Link, Outlet } from 'react-router-dom';
+import Header from './components/HomePage/Header';
+import MainContent from './components/HomePage/MainContent';
+import Footer from './components/HomePage/Footer';
 
 function App() {
   return (
-    <div>
-      <nav>
-        <Link to="/">Home</Link> | <Link to="/about">About</Link>
-      </nav>
-      <hr />
-      <Outlet />
+    <div className="App">
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
